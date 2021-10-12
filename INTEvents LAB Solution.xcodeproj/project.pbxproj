@@ -7,15 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FB61C06B27162FBD00F76DD3 /* enumSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB61C06A27162FBD00F76DD3 /* enumSegue.swift */; };
+		FB61C06F27162FDA00F76DD3 /* extensionString.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB61C06E27162FDA00F76DD3 /* extensionString.swift */; };
+		FB61C07227162FF100F76DD3 /* dialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB61C07127162FF100F76DD3 /* dialog.swift */; };
+		FB61C0752716300A00F76DD3 /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB61C0742716300A00F76DD3 /* UserInfo.swift */; };
 		FBF9E0B92710789C00B335D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF9E0B82710789C00B335D6 /* AppDelegate.swift */; };
 		FBF9E0BB2710789C00B335D6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF9E0BA2710789C00B335D6 /* SceneDelegate.swift */; };
 		FBF9E0BD2710789C00B335D6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF9E0BC2710789C00B335D6 /* ViewController.swift */; };
 		FBF9E0C02710789C00B335D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBF9E0BE2710789C00B335D6 /* Main.storyboard */; };
 		FBF9E0C22710789E00B335D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBF9E0C12710789E00B335D6 /* Assets.xcassets */; };
 		FBF9E0C52710789E00B335D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBF9E0C32710789E00B335D6 /* LaunchScreen.storyboard */; };
+		FBF9E0CE2710888300B335D6 /* EventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF9E0CD2710888300B335D6 /* EventsViewController.swift */; };
+		FBF9E0D127108C3400B335D6 /* EventInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF9E0D027108C3400B335D6 /* EventInfoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FB61C06A27162FBD00F76DD3 /* enumSegue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = enumSegue.swift; sourceTree = "<group>"; };
+		FB61C06E27162FDA00F76DD3 /* extensionString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extensionString.swift; sourceTree = "<group>"; };
+		FB61C07127162FF100F76DD3 /* dialog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dialog.swift; sourceTree = "<group>"; };
+		FB61C0742716300A00F76DD3 /* UserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
 		FBF9E0B52710789C00B335D6 /* INTEvents LAB Solution.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "INTEvents LAB Solution.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBF9E0B82710789C00B335D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FBF9E0BA2710789C00B335D6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +34,8 @@
 		FBF9E0C12710789E00B335D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FBF9E0C42710789E00B335D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FBF9E0C62710789E00B335D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBF9E0CD2710888300B335D6 /* EventsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsViewController.swift; sourceTree = "<group>"; };
+		FBF9E0D027108C3400B335D6 /* EventInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventInfoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +49,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FB61C06927162F5300F76DD3 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				FB61C06A27162FBD00F76DD3 /* enumSegue.swift */,
+				FB61C06E27162FDA00F76DD3 /* extensionString.swift */,
+				FB61C07127162FF100F76DD3 /* dialog.swift */,
+				FB61C0742716300A00F76DD3 /* UserInfo.swift */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
 		FBF9E0AC2710789C00B335D6 = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +79,7 @@
 		FBF9E0B72710789C00B335D6 /* INTEvents LAB Solution */ = {
 			isa = PBXGroup;
 			children = (
+				FB61C06927162F5300F76DD3 /* src */,
 				FBF9E0B82710789C00B335D6 /* AppDelegate.swift */,
 				FBF9E0BA2710789C00B335D6 /* SceneDelegate.swift */,
 				FBF9E0BC2710789C00B335D6 /* ViewController.swift */,
@@ -63,6 +87,8 @@
 				FBF9E0C12710789E00B335D6 /* Assets.xcassets */,
 				FBF9E0C32710789E00B335D6 /* LaunchScreen.storyboard */,
 				FBF9E0C62710789E00B335D6 /* Info.plist */,
+				FBF9E0CD2710888300B335D6 /* EventsViewController.swift */,
+				FBF9E0D027108C3400B335D6 /* EventInfoViewController.swift */,
 			);
 			path = "INTEvents LAB Solution";
 			sourceTree = "<group>";
@@ -137,9 +163,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB61C06B27162FBD00F76DD3 /* enumSegue.swift in Sources */,
+				FBF9E0D127108C3400B335D6 /* EventInfoViewController.swift in Sources */,
 				FBF9E0BD2710789C00B335D6 /* ViewController.swift in Sources */,
+				FBF9E0CE2710888300B335D6 /* EventsViewController.swift in Sources */,
 				FBF9E0B92710789C00B335D6 /* AppDelegate.swift in Sources */,
 				FBF9E0BB2710789C00B335D6 /* SceneDelegate.swift in Sources */,
+				FB61C06F27162FDA00F76DD3 /* extensionString.swift in Sources */,
+				FB61C0752716300A00F76DD3 /* UserInfo.swift in Sources */,
+				FB61C07227162FF100F76DD3 /* dialog.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
