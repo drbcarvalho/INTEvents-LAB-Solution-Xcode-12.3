@@ -83,12 +83,12 @@
 				FBF9E0B82710789C00B335D6 /* AppDelegate.swift */,
 				FBF9E0BA2710789C00B335D6 /* SceneDelegate.swift */,
 				FBF9E0BC2710789C00B335D6 /* ViewController.swift */,
+				FBF9E0CD2710888300B335D6 /* EventsViewController.swift */,
+				FBF9E0D027108C3400B335D6 /* EventInfoViewController.swift */,
 				FBF9E0BE2710789C00B335D6 /* Main.storyboard */,
 				FBF9E0C12710789E00B335D6 /* Assets.xcassets */,
 				FBF9E0C32710789E00B335D6 /* LaunchScreen.storyboard */,
 				FBF9E0C62710789E00B335D6 /* Info.plist */,
-				FBF9E0CD2710888300B335D6 /* EventsViewController.swift */,
-				FBF9E0D027108C3400B335D6 /* EventInfoViewController.swift */,
 			);
 			path = "INTEvents LAB Solution";
 			sourceTree = "<group>";

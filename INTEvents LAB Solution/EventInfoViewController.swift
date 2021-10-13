@@ -9,21 +9,29 @@ import UIKit
 
 class EventInfoViewController: UIViewController {
 
+    public var bannerImageName : String = ""
+    public var eventInformation : String = ""
+    public var loggedUser : String = ""
+    
+    @IBOutlet weak var lblLogin: UILabel!
+    
+    @IBOutlet weak var txtInformation: UITextView!
+    
+    @IBOutlet weak var imgBanner: UIImageView!
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        lblLogin.text = loggedUser
+
+        imgBanner.image = UIImage(named: bannerImageName)
+        
+        txtInformation.text = eventInformation
+        
     }
     
+    
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }
